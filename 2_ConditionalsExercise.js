@@ -60,6 +60,7 @@ function exercise1(num1) {
   // And above here
   // ------------------------------------------
   return answer1;
+  
 }
 
 // EXERCISE 2.
