@@ -14,7 +14,7 @@
 //   // ------------------------------------------
 //   // Write your code for exercise 0 below here:
 //   // ------------------------------------------
-//
+// let myAnswer =  num1 + num 2;
 //   // ------------------------------------------
 //   // And above here
 //   // ------------------------------------------
@@ -51,11 +51,13 @@
 // "The value of num1 is <num1 value> and is greater than 10".
 
 function exercise1(num1) {
-  let answer1 = "";
+  let answer1 = "num1 is small";
   // ------------------------------------------
   // Write your code for exercise 1 below here:
   // ------------------------------------------
-
+  if (num1 > 10) {
+  return  "The value of num1 is" + num1 + "and is greater than 10";
+  }
   // ------------------------------------------
   // And above here
   // ------------------------------------------
@@ -74,11 +76,21 @@ function exercise1(num1) {
 // "4 is even"
 
 function exercise2(num2) {
-  let answer2;
+  let answer2 = num2;
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
+  let num2 = 4 
+  if num2 % 2 = even  {
+  answer2 = even
+   else  
+   answer 2 = odd;
+   }
 
+
+   
+
+   
   // --------------------------------------------
   // And above here
   // --------------------------------------------
