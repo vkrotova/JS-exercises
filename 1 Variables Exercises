@@ -95,32 +95,32 @@ const myAnswerForExercise13 = "5";
 
 // Exercise 14 What is the value of
 // A + "n" + D
-const myAnswerForExercise14 = "";
+const myAnswerForExercise14 = "RnD";
 
 // Exercise 15 What is the value of
 // A + B * 2 + D + C / 2:
-const myAnswerForExercise15 = "";
+const myAnswerForExercise15 = "R2D2";
 
 // Exercise 16 What is the value of A * B
-const myAnswerForExercise16 = "";
+const myAnswerForExercise16 = "R1";
 
 // Exercise 17 What is the value of true || false
-const myAnswerForExercise17 = "";
+const myAnswerForExercise17 = "true";
 
 // Exercise 18 What is the value of 1 === "1"
-const myAnswerForExercise18 = "";
+const myAnswerForExercise18 = "false";
 
 // Exercise 19 What is the value of 1 == "1"
-const myAnswerForExercise19 = "";
+const myAnswerForExercise19 = "true";
 
 // Exercise 20 What is the value of 1 < 1
-const myAnswerForExercise20 = "";
+const myAnswerForExercise20 = "false";
 
 // Exercise 21 What is the value of 1 < 2 < 3
-const myAnswerForExercise21 = "";
+const myAnswerForExercise21 = "true";
 
 // Exercise 22 What is the value of 2 < 1 < 3
-const myAnswerForExercise22 = "";
+const myAnswerForExercise22 = "false";
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
