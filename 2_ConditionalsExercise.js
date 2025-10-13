@@ -81,7 +81,7 @@ function exercise2(num2) {
   // Write your code for the exercise below here:
   // --------------------------------------------
   let num2 = 4 
-  if num2 % 2 = even  {
+  if (num2 % 2) = even  {
   answer2 = even
    else  
    answer 2 = odd;
@@ -107,16 +107,20 @@ function exercise2(num2) {
 // "<num3 value> is zero"
 
 function exercise3(num3) {
-  let answer3;
+  let answer3 = num value;
+  let num3 = 1
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  if (num3>1) {
+  console.log( 'num3 is greater than num3 value');
+  }else if(num3==num3 value)
+  }else{}
+  console.log('num3 is less than num3 value');
   // --------------------------------------------
   // And above here
   // --------------------------------------------
   return answer3;
-}
 
 // EXERCISE 4.
 // Write an if/else statement such that if `varA` and `varB` are strings or
@@ -129,7 +133,11 @@ function exercise4(varA, varB) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  if(varA == varB) {
+    console.log ('varA is equal to varB')
+  }else
+  if (varA !== varB)
+  console.log ('varA and varB differ')
   // --------------------------------------------
   // And above here
   // --------------------------------------------
