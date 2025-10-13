@@ -221,6 +221,10 @@ function exercise8(amount1, amount2, minimum, maximum) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
+if (amount1 >= min && amount2 <= max) {
+exercise8 = answer8 + "is true";
+}else{
+exercise8 = answer8 + "is false";  
 
   // --------------------------------------------
   // And above here
@@ -240,7 +244,23 @@ function exercise9(item) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+switch (item) {
+case 1:
+answer9 = "you won!";
+break;
+case 7:
+answer9 = "You are lucky!";
+break;
+case 101;
+answer9 = "Welcome to coding 101!";
+break;
+case 1000000 = "You are one in a million!"
+break;
+default: 
+answer9 = "Thanks for that!";
+}
+}else{
+answer9 = item + "Please send a number, that was a boolean."  
   // --------------------------------------------
   // And above here
   // --------------------------------------------
