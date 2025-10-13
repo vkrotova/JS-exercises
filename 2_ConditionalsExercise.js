@@ -79,17 +79,12 @@ function exercise2(num2) {
   let answer2 = num2;
   // --------------------------------------------
   // Write your code for the exercise below here:
-  // --------------------------------------------
-  let num2 = 4 
-  if (num2 % 2) = even  {
-  answer2 = even
-   else  
-   answer 2 = odd;
-   }
-
-
-   
-
+  // -------------------------------------------- 
+  if (num2 % 2 == 0)  {
+    answer2 = num2 + "is even";
+  } else (num2 % 2 == 1){
+    answer2 = num2 + "is odd"
+  }
    
   // --------------------------------------------
   // And above here
@@ -107,16 +102,21 @@ function exercise2(num2) {
 // "<num3 value> is zero"
 
 function exercise3(num3) {
-  let answer3 = num value;
-  let num3 = 1
+  let answer3 = num3
+
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-  if (num3>1) {
-  console.log( 'num3 is greater than num3 value');
-  }else if(num3==num3 value)
-  }else{}
-  console.log('num3 is less than num3 value');
+ if (num3>0) {
+  answer3 = num3 + "is positive";
+ }else if (num3<0) {
+  answer3 = num3 + "is negative"; 
+ }else{
+  answer3 = num3 + "is zero";
+
+
+
+
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -134,10 +134,10 @@ function exercise4(varA, varB) {
   // Write your code for the exercise below here:
   // --------------------------------------------
   if(varA == varB) {
-    console.log ('varA is equal to varB')
+  answer4 = ('varA is equal to varB');
   }else
-  if (varA !== varB)
-  console.log ('varA and varB differ')
+  if (varA === varB)
+  answer4 = ('varA and varB differ');
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -148,6 +148,7 @@ function exercise4(varA, varB) {
 // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
 // seemed like they are equal, but would not pass the tests? In your analysis
 // consider other data types beside strings and variables.
+Booleans vs numbers 
 
 // EXERCISE 6.
 // Here, assign the value of true to answer6 if:
@@ -158,7 +159,12 @@ function exercise6(varA, varB, varC) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+if (varA == varB){
+answer6 = unassigned + "true";
+}else
+if (varA != varC || varB != varC);
+answer6 = unassigned + "is false";  
+  
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -183,6 +189,21 @@ function exercise7(num7) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
+switch (num7) {
+case 1:
+answer7 = "you won!";
+break;
+case 7:
+answer7 = "You are lucky!";
+break;
+case 101;
+answer7 = "Welcome to coding 101!";
+break;
+case 1000000 = "You are one in a million!"
+break;
+default: 
+answer7 = "Thanks for that!";
+}
 
   // --------------------------------------------
   // And above here
