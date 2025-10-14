@@ -55,7 +55,11 @@ function discount(age){
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
 
-function 
+function repeatString(num, "string"){
+  for (let i = 0; i < count; i++) {
+  }
+}
+
 
 // Exercise 7. Read the following code (don't run it yet)
 function mysteryFunction1(p1) {
@@ -68,12 +72,16 @@ console.log("The value of z is " + z);
 
 // Without running the code, write down in a comment:
 // 1. What mysteryFunction1 does
-//calls a function
+//mysteryFunction1 takes 2 parameters and returns result through multiplication. 
+//Yes I was correct 
 // 2. What prints out for the value of y
-
+//4
 // 3. What prints out for the value of z
+//8
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?
+//I was correct that y printed out 4, but I was not correct in that I answered the value for z is 4.
+
 
 // Exercise 8. Read the following code (don't run it yet)
 function mysteryFunction2(p1, p2) {
@@ -87,10 +95,14 @@ console.log("The value of b is " + b);
 
 // Without running the code, write down in a comment:
 // 1. What mysteryFunction2 does
+//mysteryFunction1 takes 2 parameters and returns result through subtraction. 
 // 2. What prints out for the value of a
+//6
 // 3. What prints out for the value of b
+//5 
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?
+// Yes I was correct 
 
 // Exercise 9. This exercise is to practice reading the documentation for functions.
 // String.split() is a function in the JavaScript standard library that you can use in your code.
@@ -100,15 +112,17 @@ console.log("The value of b is " + b);
 // Here's a string I made representing my grocery list.
 // Using split() and groceryList, make an array of my grocery list items
 const groceryList = "eggs,carrots,orange juice";
+const groceryArray = groceryList.split(",");
 
 // Here's a string I made representing my morning schedule.
 // Using split() and mySchedule, make an array of the *first 2* things I do in the morning
 // There are multiple ways to do this, but try doing it using only the split() function.
 const mySchedule = "wake up--->brush teeth--->eat breakfast--->go to work";
+const scheduleArray = mySchedule.split(",");
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//I found some exercises harder and I had to google the notations and how to write the syntax correctly.
 
 // Commit your file to GitHub.
