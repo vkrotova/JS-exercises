@@ -45,10 +45,17 @@ function parameters (num1,num2,num3){
 // Write a function that takes in a person's age and returns true if they should get a discount.
 // Otherwise it should return false.
 // Then write some function calls you would use to test your function.
-
+function discount(age){
+  if (age >=65){
+    return true;
+  }else{
+  }return false;
+}
 // Exercise 6. Write a function that takes 2 parameters -- one number and one string.
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
+
+function 
 
 // Exercise 7. Read the following code (don't run it yet)
 function mysteryFunction1(p1) {
@@ -61,7 +68,9 @@ console.log("The value of z is " + z);
 
 // Without running the code, write down in a comment:
 // 1. What mysteryFunction1 does
+//calls a function
 // 2. What prints out for the value of y
+
 // 3. What prints out for the value of z
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?

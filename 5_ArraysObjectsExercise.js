@@ -10,20 +10,30 @@
 // But make sure you understand why the correct answer is right.
 
 // Exercise 1. Make an empty array named animals
+let animals =[];
 
 // Exercise 2. Add the string "frog" to the array
+let animals =["frog"];
 
 // Exercise 3. Add 4 more animals of your choice to the array. Try to add all of them in one line of code.
+let animals =["frog" , "cat" , "dog" , "horse" , "fish"];
 
 // Exercise 4. Update the first item in the array to be "gorilla"
+let animals =["frog" , "cat" , "dog" , "horse" , "fish"];
+myArray[1] = "gorilla";
 
 // Exercise 5. Print the number of items in the array (use the array property that will give you this information)
-
+const myArray = ["frog" , "cat" , "dog" , "horse" , "fish"];
+myArray.length;
 // Exercise 6. Print the first item in the array
-
+const myArray =["frog" , "cat" , "dog" , "horse" , "fish"];
+myArray[0];
 // Exercise 7. Print the last item in the array (as part of your answer, use the same array property you used in exercise 5 above)
-
+const myArray =["frog" , "cat" , "dog" , "horse" , "fish"];
+myArray[4];
 // Exercise 8. Remove the last item from the array
+let myArray =["frog" , "cat" , "dog" , "horse" , "fish"];
+let removedItem myArray.pop();
 
 // Exercise 9. Now make a new array named assortedThings that contains at least 3 strings and 3 numbers.
 
