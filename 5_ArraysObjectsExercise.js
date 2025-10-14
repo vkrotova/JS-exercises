@@ -36,12 +36,19 @@ let myArray =["frog" , "cat" , "dog" , "horse" , "fish"];
 let removedItem myArray.pop();
 
 // Exercise 9. Now make a new array named assortedThings that contains at least 3 strings and 3 numbers.
+const assortedThings = ["hat", "jacket" , "gloves"  1 ,2 ,3];
+
+for (let i = 0; i < assortedThings.length; i++) {
+}
 
 // Exercise 10. Write a for loop that iterates through the assortedThings array and prints each index and item, such as:
 // Item #0 is potato
 // Item #1 is 4
 // Item #2 is Hello World
 // ...
+const assortedThings = ["hat", "jacket" , "gloves"  1 ,2 ,3];
+
+for (let i = 0; i < assortedThings.length; i++) {
 
 // Exercise 11. Write a function that takes an array of numbers as a parameter. For each number in the array,
 // print the number and "BIG" if it's over 100, "small" if it's between 0 and 100, and "negative" if
@@ -53,14 +60,57 @@ let removedItem myArray.pop();
 //
 // Then write some function calls you would use to test your function.
 
+function numbers(array){
+if  (num>100){
+    (num, "Big");
+}else if (num >= 0 && num <= 100) {
+    (num, "small");
+}else{
+     (num, "negative");
+}
+
+        }
+    }
+}
+
 // Exercise 12. Make an object called me that contains the following keys: name, favoriteAnimal, favoriteNumber
 // The values of those keys can be whatever you choose.
 
+const me = {
+  name: "violetta",
+  favoriteAnimal: "dog",
+  favoriteNumber: 1
+};
+
+
 // Exercise 13. Add another 2 keys and values to the object (you choose what they are)
+const me = {
+  name: "violetta",
+  favoriteAnimal: "dog",
+  favoriteNumber: 1
+  favoritePlace: "beach"
+  favoriteFood: "burgers"
+};
 
 // Exercise 14. Update the favoriteAnimal value to something different
-
+const me = {
+  name: "violetta",
+  favoriteAnimal: "dog",
+  favoriteNumber: 1,
+  favoritePlace: "beach",
+  favoriteFood: "burgers"
+};
+me.favoriteAnimal = "cat";
 // Exercise 15. Print the value of favoriteAnimal.
+const me = {
+  name: "violetta",
+  favoriteAnimal: "dog",
+  favoriteNumber: 1,
+  favoritePlace: "beach",
+  favoriteFood: "burgers"
+};
+me.favoriteAnimal
+
 // Note: there are at least 2 ways to get the value of a key, try to write both.
 
 // Congrats, you made it to the end!
